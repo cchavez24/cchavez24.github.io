@@ -1,0 +1,90 @@
+#headingOne {
+ background-color: dodgerblue;
+ width: 100%;
+ padding: 50px;
+ margin-top: 0;
+ margin: auto;
+ font-size: 50px;
+ text-align: center;
+}
+
+#lakers {
+ margin-right: 50px;
+ block-size: 200px;
+ border: 10px solid yellow;
+ margin-bottom: 50px;
+}
+
+#packers {
+ margin-left: 50px;
+ border: 10px solid green;
+ height: 215px;
+ width: 300px;
+ margin-bottom: 50px;
+}
+
+#tame {
+ margin-bottom: 15px;
+ margin-top: 10px;
+}
+
+.display {
+ display: inline-block;
+ padding: 0 4px;
+ margin-left: 80px;
+}
+
+p {
+ font-size: 25px;
+ font-family: a color: green;
+ text-align: center;
+ margin: auto;
+ padding: 10px;
+}
+
+.button {
+ text-align: center;
+}
+
+.submitBox {
+ margin-top: 50px;
+ margin-bottom: 100px;
+}
+
+p {
+ border: 5px solid red;
+ background-color: orange;
+ width: 78%;
+}
+
+body {
+ background-color: rgb(58, 54, 54);
+}
+
+.row {
+ display: flex;
+ padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+ -ms-flex: 25%;
+ flex: 25%;
+ max-width: 25%;
+ padding: 0 4px;
+}
+
+.column img {
+ margin-top: 8px;
+ vertical-align: middle;
+ width: 100%;
+}
+
+#contact {
+ /* font-size: 20px;
+ color: white; */
+ margin: 25px 0 5px 0px;
+ color: #fff;
+ font-weight: 500;
+}
