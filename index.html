@@ -5,27 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carlos' Bio Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-  <h1 id="headingOne"><i>Carlos' Bio</i></h1>
-  <br>
-  <p>My name is Carlos, I'm 29 years old. My last job was in accounting for a construction company.<br>I like to play
-    sports,
-    hang out with friends, and take my dog, Jax, to the park, beach, or on hikes. I am hoping to get a job as a
-    front-end web developer at a company with a good culture.</p>
-  <br>
-  <div class="display">
+   <header>
+      <h1>Carlos Chavez</h1>
+      <h2>Web Developer</h2>
+      <img src="jd.jpg" alt="Carlos picture" class="headerPicture">
+      <nav>   
+        <ul>
+          <li>
+          <a href="#about">About Me</a>
+          </li>
+          <li>
+          <a href=#projects>Projects</a>
+          </li>
+          <li>
+          <a href=#contact>Contact</a>
+          </li>
+        </ul>
+    </nav>
+</header>
+
+  <div id="about">
+    <h2>About Me</h2>
+  <p>My name is Carlos, I'm 29 years old. My last job was in accounting for a construction company. I like to play sports, go to concerts, hang out with friends, and take my dog, Jax, to the park, beach, or on hikes. I am hoping to get a job as a front-end web developer at a company with a good culture.</p>
+  </div>
+  <div class="display, row">
     <img id="lakers" src="https://1000logos.net/wp-content/uploads/2017/03/los-angeles-lakers-logo.jpg"
       alt="Lakers logo">
-    <iframe id="tame" width="560" height="315" src="https://www.youtube.com/embed/X4JotTuoCm4" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <img id="packers"
-      src="https://www.baltimoresun.com/resizer/tO2Q2_S-YkhH2nKsfqTFISDgQ-4=/415x405/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/J6F5GI55ERFAHNY744WAY4M6II.jpg"
-      alt="Packers logo">
+    <iframe id="tame" width="560" height="315" src="https://www.youtube.com/embed/utCjuKDXQsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <img id="packers" src="https://www.baltimoresun.com/resizer/tO2Q2_S-YkhH2nKsfqTFISDgQ-4=/415x405/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/J6F5GI55ERFAHNY744WAY4M6II.jpg" alt="Packers logo">
   </div>
-  <br>
   <div class="row">
     <div class="column">
       <img src="sequoia.jpg" alt="sequoia">
@@ -62,12 +75,13 @@
       <img src="christmas.jpg" alt="christmas">
     </div>
   </div>
-  <aside class="button">
-    <h2 id="contact">Get in Touch</h2>
-    <input type="email" class="submitBox">
-    <button a href="./contact.html">Send</button>
-
-  </aside>
-</body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+<footer id="footer"><a href="./contact.html">Contact</a></footer>
 
 </html>
